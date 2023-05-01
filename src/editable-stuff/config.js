@@ -21,7 +21,7 @@ const mainBody = {
     },
     {
       image: "fa-linkedin",
-      url: " www.linkedin.com/in/guillaume-neirinckx",
+      url: " https://www.linkedin.com/in/guillaume-neirinckx/",
     },
   ],
 };
@@ -46,8 +46,8 @@ const about = {
   imageLink: require("../editable-stuff/moi.jpg"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: require("../editable-stuff/resume.pdf"),
+    "My name is Guillaume Neirinckx. I’m a graduate of 2020 from UCLouvain with a degree in Computer Sciences. I'm most passionate about solving problems, and my goal is to pursue this passion within the field of software engineering. In my free time I like running outside, playing tennis and working on personal IT projects.",
+  resume: require("../editable-stuff/CV.pdf"),
 };
 
 // PROJECTS SECTION
@@ -92,19 +92,19 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
+    { name: "Java", value: 90 },
+    { name: "Typescript", value: 90 },
+    { name: "Python", value: 80 },
+    { name: "SQL", value: 80 },
+    { name: "C", value: 70 },
+    { name: "Erlang", value: 70 },
     { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Bash", value: 50 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
+    { name: "Goal-Oriented", value: 90 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
+    { name: "Positivity", value: 80 },
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },
     { name: "Empathy", value: 90 },
@@ -118,8 +118,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "If you want to reach me, please feel free to email me at",
+  email: "guiste10@gmail.com",
 };
 
 const experiences = {
